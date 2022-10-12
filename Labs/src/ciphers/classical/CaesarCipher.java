@@ -1,4 +1,4 @@
-package ciphers;
+package ciphers.classical;
 
 import java.util.Scanner;
 

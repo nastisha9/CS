@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import ciphers.*;
+import ciphers.classical.*;
+import ciphers.symmetric.*;
 
 public class Main {
 
@@ -13,7 +14,9 @@ public class Main {
         System.out.println("2) Vigenere cipher");
         System.out.println("3) Playfair cipher");
         System.out.println("4) Vernam cipher");
-        System.out.println("4) exit\n");
+        System.out.println("5) RC4 cipher");
+        System.out.println("6) DES cipher\n");
+        System.out.println("7) exit\n");
         System.out.println("Enter Choice:");
         int choice = scanner.nextInt();
         switch (choice) {
@@ -30,6 +33,12 @@ public class Main {
                 VernamCipher.vernam();
                 break;
             case 5:
+                RC4Cipher.rc4();
+                break;
+            case 6:
+                DESCipher.des();
+                break;
+            case 7:
                 System.exit(0);
                 break;
             default:
