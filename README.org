@@ -1,0 +1,28 @@
+#+TITLE: CRYPTOGRAPHY & SECURITY LABORATORY WORKS
+#+AUTHOR: nastisha9
+
+** 👋 TABLE OF CONTENTS :toc:
+  - [[#-introduction][📑 INTRODUCTION]]
+  - [[#-progress][🎯 PROGRESS]]
+  - [[#-contact][📮 CONTACT]]
+
+** 📑 INTRODUCTION
+
+*** About this Repository
+
+This repository contains homework assignments and laboratory works for the =CRYPTOGRAPHY & SECURITY= course here at =TUM FCIM=.
+
+All the solutions are written in =Java=.
+
+** 🎯 PROGRESS
+
+| Laboratory No. | Status | Grade  |
+|----------------+--------+--------|
+| LAB 0          | =DONE= |  =10=  |
+| LAB 1          | =DONE= |  =10=  |
+| LAB 2          | =TODO= | =NONE= |
+|----------------+--------+--------|
+
+** 📮 CONTACT
+
+If you have any question, please contact me through email: =anastasia.iatco@isa.utm.md=.
