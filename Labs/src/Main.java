@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import ciphers.classical.*;
 import ciphers.symmetric.*;
+import ciphers.asymmetric.*;
 
 public class Main {
 
@@ -16,7 +17,8 @@ public class Main {
         System.out.println("4) Vernam cipher");
         System.out.println("5) RC4 cipher");
         System.out.println("6) DES cipher\n");
-        System.out.println("7) exit\n");
+        System.out.println("7) RSA cipher\n");
+        System.out.println("8) exit\n");
         System.out.println("Enter Choice:");
         int choice = scanner.nextInt();
         switch (choice) {
@@ -39,6 +41,9 @@ public class Main {
                 DESCipher.des();
                 break;
             case 7:
+                RSA.rsa();
+                break;
+            case 8:
                 System.exit(0);
                 break;
             default:
